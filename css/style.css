@@ -1,4 +1,4 @@
-ul li { 
+ul li #menu{ 
     /*padding-left: 50px; */
     list-style: none; /*Remove default bullet points*/
     display: inline-block; /*Place menu items next to each other*/
