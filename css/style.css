@@ -1,12 +1,11 @@
-ul li #menu{ 
+.menu { 
     /*padding-left: 50px; */
     list-style: none; /*Remove default bullet points*/
     display: inline-block; /*Place menu items next to each other*/
     line-height: 100px;
     }
 
-ul li a { /*Style actual text within the links*/
-    display: block; /*So that anywhere above or below text can still be clicked to go to link */
+.menu a { /*Style actual text within the links*/
     text-decoration: none; /*Get rid of default underline*/
     font-size: 14px;
     font-weight: bold;
