@@ -1,0 +1,40 @@
+ul li { 
+    /*padding-left: 50px; */
+    list-style: none; /*Remove default bullet points*/
+    display: inline-block; /*Place menu items next to each other*/
+    line-height: 100px;
+    }
+
+ul li a { /*Style actual text within the links*/
+    display: block; /*So that anywhere above or below text can still be clicked to go to link */
+    text-decoration: none; /*Get rid of default underline*/
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Comic Sans';
+    color: darkslategray;
+    padding: 0 100px;/*Crate space in between naviagtion links*/
+    }
+/*background-image*/
+
+h1 {
+    font-family: Arial;
+    color: darkslategray;
+}
+
+p a {
+    color: darkslategray;
+}
+
+a.link {
+    color: deeppink;
+    text-decoration: none;
+}
+
+a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+
+a.active{
+    color: lime;
+}
