@@ -1,64 +1,61 @@
-.menu { 
-    list-style: none; /*Remove default bullet points*/
-    font-family: 'Courier New', Courier, monospace;
-    line-height: 100px;
-    }
-
-.menu a { /*Style actual text within the links*/
-  text-decoration: none; /*Get rid of default underline*/
+.menu {
+  list-style: none;
+  font-family: "Courier New", Courier, monospace;
+  line-height: 100px;
+}
+.menu a {
+  text-decoration: none;
+  display: inline-block;
   font-size: 20px;
   font-weight: normal;
   color: white;
-  padding: 0 50px;/*Crate space in between naviagtion links*/
-  }
+  padding: 0 50px;
+}
 
 @media screen and (max-width: 600px) {
-  .menu a { 
-    list-style: none; /*Remove default bullet points*/
-    display: block; /*Place menu items next to each other*/
+  .menu a {
+    list-style: none;
+    display: block;
     line-height: 50px;
-    }
+  }
+}
+#misc1, #misc2 {
+  font-style: italic;
+  color: grey;
 }
 
-
-h1,li {
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-}
-
-p{
+h1, li {
   font-family: Arial, Helvetica, sans-serif;
   color: black;
 }
 
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
 p a {
-    color: black;
-    text-decoration: underline;
+  color: black;
+  text-decoration: underline;
 }
 
 a.link {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
-
-a:hover{
-    color: red;
-    text-decoration: underline;
+a:hover {
+  color: red;
+  text-decoration: underline;
 }
-
-a.active{
-    color: lime;
-    font-weight: bold;
-    font-size: 200%;
-}
-
-.sizing img {
-  width: 100%;
-  height: auto;
+a.active {
+  color: lime;
+  font-weight: bold;
+  font-size: 200%;
 }
 
 td {
   word-wrap: break-word;
-  color: black;
   font-family: Arial, Helvetica, sans-serif;
+  color: black;
 }
+
+/*# sourceMappingURL=style.css.map */
