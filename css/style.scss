@@ -1,6 +1,10 @@
 $font-fam: Arial, Helvetica, sans-serif;
 $color: black;
 
+%sharedMisc {
+  color:grey;
+}
+
 .menu {
   list-style: none; 
   font-family: 'Courier New', Courier, monospace;
@@ -24,9 +28,14 @@ $color: black;
   }
 }
 
-#misc1, #misc2{
-  font-style: italic; ;
-  color: grey;
+#misc1{
+  @extend %sharedMisc;
+  font-style: italic;
+}
+
+#misc2{
+  @extend %sharedMisc;
+  letter-spacing: 2px;
 }
 
 h1, li {
